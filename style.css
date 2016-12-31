@@ -168,6 +168,21 @@ body {
     float: right;
     width: auto;
   }
+
+  /* BOX4-1とBOX4-2を横に並べる設定 */
+  .box4:after {
+    content: "";
+    display: block;
+    clear: both;
+  }
+  .box4-1 {
+    float: left;
+    width: 70%
+  }
+  .box4-2 {
+    float: right;
+    width: 30%
+  }
 }
 
 /* ------------------- 1190px以上の場合 ------------------- */
