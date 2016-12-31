@@ -80,10 +80,18 @@ body {
   font-weight: bold;
 }
 
+/* コピーライト　*/
 .copyright p {
   margin: 0;
   color: #666666;
   font-size: 14px;
+}
+
+/* Box5をバーの形にする */
+.box5 {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  background-color: #dddddd;
 }
 
 /* ボックスの左右　*/
