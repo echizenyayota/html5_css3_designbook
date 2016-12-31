@@ -79,6 +79,12 @@ body {
   font-weight: bold;
 }
 
+.copyright p {
+  margin: 0;
+  color: #666666;
+  font-size: 14px;
+}
+
 /* 768px以上では、Box1とBox2を横に並べる設定 */
 @media (min-width: 768px) {
   boxA: after {
