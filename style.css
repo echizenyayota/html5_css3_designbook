@@ -114,10 +114,23 @@ body {
 .follow li a {
   display: block;
   padding: 5px;
-  color: #000000;
+  color: #ffffff;
   font-size: 14px;
   text-decoration: none;
 }
+
+.follow-tw {
+  background-color: #63bafb;
+}
+
+.follow-fb {
+  background-color: #5288f7;
+}
+
+.follow-gp {
+  background-color: #f65d4a;
+}
+
 
 /* コピーライト　*/
 .copyright p {
