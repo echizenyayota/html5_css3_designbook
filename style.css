@@ -113,7 +113,9 @@ body {
 
 .follow li a {
   display: block;
-  padding: 5px;
+  margin-bottom: 10px;
+  padding: 10px;
+  border-radius: 6px;
   color: #ffffff;
   font-size: 14px;
   text-decoration: none;
