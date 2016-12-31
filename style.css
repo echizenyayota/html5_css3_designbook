@@ -104,6 +104,20 @@ body {
   margin-left: 60px;
 }
 
+/* SNSメニュー */
+.follow ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.follow li a {
+  display: block;
+  padding: 5px;
+  color: #000000;
+  font-size: 14px;
+  text-decoration: none;
+}
 
 /* コピーライト　*/
 .copyright p {
