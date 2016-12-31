@@ -48,7 +48,8 @@ body {
 
 /* ヘッダー画像 */
 .topimg {
-  max-width: 100%;
+  /*max-width: 100%;*/
+  width: 100%;
   height: auto;
   vertical-align: bottom;
 }
@@ -165,15 +166,16 @@ body {
 
 @media (min-width: 1190px) {
   /* 全体の横幅を固定 */
-  .box3, .box4, .boxA-inner, .box5-inner {
+  /*.box3, .box4, .boxA-inner, .box5-inner {*/
+  .box4, .boxA-inner, .box5-inner {
     width: 1140px;
     margin-left: auto;
     margin-right: auto;
   }
   /* BOX Aの下に罫線を入れる */
-  .boxA {
+  /*.boxA {
     margin-bottom: 20px;
     border-bottom: solid 1px #dddddd;
-  }
+  }*/
 
 }
