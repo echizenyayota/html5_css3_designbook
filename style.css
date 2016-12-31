@@ -64,6 +64,11 @@ body {
   list-style: none;
 }
 
+.news {
+  padding: 20px;
+  border: solid 5px #dddddd;
+}
+
 .news li a {
   display: block;
   padding: 5px;
