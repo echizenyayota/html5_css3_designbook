@@ -216,7 +216,11 @@ body {
   }
   .box4-1 {
     float: left;
-    width: 70%
+    width: 70%;
+    padding-right: 35px;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
   }
   .box4-2 {
     float: right;
