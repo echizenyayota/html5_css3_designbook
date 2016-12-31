@@ -114,6 +114,11 @@ body {
 /* ------------------- 599px以下の場合 ------------------- */
 
 @media (max-width: 599px) {
+  /* ナビゲーション */
+  .menu li a {
+    padding: 10px 7px;
+    font-size: 11px;
+  }
 
 }
 
