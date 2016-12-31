@@ -163,7 +163,16 @@ body {
 
 /* ------------------- 1190px以上の場合 ------------------- */
 
-@media (max-width: 1190px) {
-
+@media (min-width: 1190px) {
+  .box3, .box4 {
+    width: 1140px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  /* BOX Aの下に罫線を入れる */
+  .boxA {
+    margin-bottom: 20px;
+    border-bottom: solid 1px #dddddd;
+  }
 
 }
