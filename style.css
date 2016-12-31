@@ -136,6 +136,11 @@ body {
   background-color: #f65d4a;
 }
 
+.follow i {
+  margin-right: 10px;
+  font-size: 24px;
+  vertical-align: middle;
+}
 
 /* コピーライト　*/
 .copyright p {
