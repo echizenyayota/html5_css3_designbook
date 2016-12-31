@@ -16,6 +16,10 @@ body {
   font-size: 30px;
 }
 
+/*.site img {
+  border: none;
+}*/
+
 /* ナビゲーション */
 .menu ul {
   margin: 0;
