@@ -292,13 +292,19 @@ body {
     border-radius: 5px;
     background-color: #ffffff;
     position: absolute;
-    top: 47px;
-    right: 9px;
+    /*top: 47px;
+    right: 9px;*/
+    top: 20px;
+    right: 15px;
     cursor: pointer;
   }
 
   #menubtn:hover {
     background-color: #dddddd;
+  }
+
+  #menubtn:focus {
+    outline: none;
   }
 
   #menubtn i {
