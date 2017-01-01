@@ -63,6 +63,17 @@ body {
   font-size: 28px;
 }
 
+/* ヘッダー画像にキャッチコピーを重ねる */
+.top {
+  position: relative;
+}
+
+.catch {
+  position: absolute;
+  bottom: 7%;
+  left: 3%;
+}
+
 
 /* 概要 */
 .gaiyou a {
