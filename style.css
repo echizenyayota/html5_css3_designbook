@@ -285,6 +285,11 @@ body {
 
 /* ------------------- 767px以下の場合 ------------------- */
 @media(max-width: 767px) {
+  /* トグルボタン */
+  #menubtn span {
+    display: inline-block;
+    text-indent: -9999px;
+  }
 
   /* ナビゲーションメニュー（縦並び） */
   #menu {
