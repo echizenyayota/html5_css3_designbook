@@ -70,16 +70,21 @@ body {
   opacity: 0.8;
 }
 
+.gaiyou i {
+  font-size: 38px;
+}
 
 .gaiyou h1 {
   margin-top: 0;
   margin-bottom: 0;
-  font-size: 36px;
+  font-size: 20px;
+  font-weight: normal;;
 }
 
 .gaiyou p {
   margin-top: 0;
   margin-bottom: 0;
+  font-size: 12px;
 }
 
 /* お知らせ */
