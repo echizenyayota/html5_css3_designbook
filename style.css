@@ -335,18 +335,24 @@ body {
   }
   .box6-1 {
     float: left;
-    width: 32%;
-    margin-right: 2%;
+    width: 33.333%;
+    padding-right: 10px;
   }
   .box6-2 {
     float: left;
-    width: 32%;
-    margin-right: 2%;
+    width: 33.333%;
+    padding-left: 5px;
+    padding-right: 5px;
   }
   .box6-3 {
     float: left;
-    width: 32%;
+    width: 33.333%;
+    padding-left: 10px;
   }
+  .box6-1, .box6-2, .box6-3 {
+    box-sizing: border-box;
+  }
+
 
 
 }
