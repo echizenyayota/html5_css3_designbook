@@ -283,6 +283,30 @@ body {
 
 }
 
+/* ------------------- 767px以下の場合 ------------------- */
+@media(max-width: 767px) {
+
+  /* ナビゲーションメニュー（縦並び） */
+  .menu ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  .menu li a {
+    display: block;
+    padding: 5px;
+    color: #000000;
+    font-size: 14px;
+    text-decoration: none;
+  }
+  .menu li a:hover {
+    background-color: #eeeeee;
+  }
+
+}
+
+
+
 /* ------------------- 768px以上の場合 ------------------- */
 
 
