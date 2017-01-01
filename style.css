@@ -64,6 +64,11 @@ body {
   font-size: 36px;
 }
 
+.gaiyou p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
 /* お知らせ */
 .news ul {
   margin: 0;
