@@ -350,6 +350,8 @@ body {
     padding-left: 10px;
   }
   .box6-1, .box6-2, .box6-3 {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
     box-sizing: border-box;
   }
 
