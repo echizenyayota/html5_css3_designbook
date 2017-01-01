@@ -144,6 +144,15 @@ body {
   vertical-align: middle;
 }
 
+.follow p {
+  margin-top : 0;
+  margin-bottom: 20px;
+  padding: 10px;
+  background-color: #dddddd;
+  font-size: 14px;
+  text-align: center;
+}
+
 /* コピーライト　*/
 .copyright p {
   margin: 0;
