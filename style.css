@@ -248,7 +248,7 @@ body {
 }
 
 /* ボックスの左右　*/
-.boxA, .box4, .box5 {
+.boxA, .box4, .box5, .box6 {
   padding-left: 15px;
   padding-right: 15px;
 }
