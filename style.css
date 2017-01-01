@@ -20,35 +20,6 @@ body {
   border: none;
 }*/
 
-/* ナビゲーション */
-.menu ul {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-}
-
-.menu li a {
-  display: block;
-  padding: 10px 15px;
-  color: #000000;
-  font-size: 14px;
-  text-decoration: none;
-}
-
-.menu li a:hover {
-  background-color: #eeeeee;
-}
-
-.menu ul:after {
-  content:"";
-  display: block;
-  clear: both;
-}
-
-.menu li {
-  float: left;
-  width: auto;
-}
 
 /* ヘッダー画像 */
 .topimg {
@@ -300,7 +271,7 @@ body {
 /* ------------------- 599px以下の場合 ------------------- */
 
 @media (max-width: 599px) {
-  /* ナビゲーション */z1
+  /* ナビゲーション */
   .menu li a {
     padding: 10px 7px;
     font-size: 11px;
@@ -314,9 +285,39 @@ body {
 
 /* ------------------- 768px以上の場合 ------------------- */
 
-/* 768px以上では、Box1とBox2を横に並べる設定 */
 
 @media (min-width: 768px) {
+  /* ナビゲーション */
+  .menu ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  .menu li a {
+    display: block;
+    padding: 10px 15px;
+    color: #000000;
+    font-size: 14px;
+    text-decoration: none;
+  }
+
+  .menu li a:hover {
+    background-color: #eeeeee;
+  }
+
+  /* 768px以上では、Box1とBox2を横に並べる設定 */
+  .menu ul:after {
+    content:"";
+    display: block;
+    clear: both;
+  }
+
+  .menu li {
+    float: left;
+    width: auto;
+  }
+
   boxA: after {
     content:"";
     display: block;
