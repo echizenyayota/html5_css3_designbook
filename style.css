@@ -294,6 +294,7 @@ body {
     position: absolute;
     top: 47px;
     right: 9px;
+    cursor: pointer;
   }
 
   #menubtn i {
