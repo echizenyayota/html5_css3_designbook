@@ -287,6 +287,9 @@ body {
 @media(max-width: 767px) {
 
   /* ナビゲーションメニュー（縦並び） */
+  #menu {
+    display: none;
+  }
   .menu ul {
     margin: 0;
     padding: 0;
