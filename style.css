@@ -57,6 +57,13 @@ body {
   vertical-align: bottom;
 }
 
+/* キャッチコピー */
+.catch {
+  margin: 0;
+  font-size: 28px;
+}
+
+
 /* 概要 */
 .gaiyou a {
   display: block;
