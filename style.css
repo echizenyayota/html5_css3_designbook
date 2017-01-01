@@ -297,6 +297,10 @@ body {
     cursor: pointer;
   }
 
+  #menubtn:hover {
+    background-color: #dddddd;
+  }
+
   #menubtn i {
     color: #888888;
     font-size: 18px;
