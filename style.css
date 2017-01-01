@@ -57,6 +57,13 @@ body {
   vertical-align: bottom;
 }
 
+/* 概要 */
+.gaiyou h1 {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 36px;
+}
+
 /* お知らせ */
 .news ul {
   margin: 0;
