@@ -308,13 +308,20 @@ body {
 
 }
 
-
-
 /* ------------------- 768px以上の場合 ------------------- */
 
 
 @media (min-width: 768px) {
+
+  /* トグルボタン */
+  #menubtn {
+    display: none;
+  }
+
   /* ナビゲーション */
+  #menu {
+    display: block !important;
+  }
   .menu ul {
     margin: 0;
     padding: 0;
