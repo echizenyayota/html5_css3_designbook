@@ -291,6 +291,9 @@ body {
     border: solid 1px #aaaaaa;
     border-radius: 5px;
     background-color: #ffffff;
+    position: absolute;
+    top: 47px;
+    right: 9px;
   }
 
   #menubtn i {
