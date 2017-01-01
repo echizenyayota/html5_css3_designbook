@@ -267,6 +267,16 @@ body {
   padding-bottom: 10px;
 }
 
+/* ------------------- 599px以下の場合 ------------------- */
+
+@media (max-width: 599px) {
+  /* サイト名 */
+  .site img {
+    width: 225px;
+    height: auto;
+  }
+
+}
 
 /* ------------------- 599px以下の場合 ------------------- */
 
@@ -292,8 +302,6 @@ body {
     border-radius: 5px;
     background-color: #ffffff;
     position: absolute;
-    /*top: 47px;
-    right: 9px;*/
     top: 20px;
     right: 15px;
     cursor: pointer;
