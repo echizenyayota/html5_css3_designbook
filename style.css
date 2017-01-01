@@ -286,6 +286,11 @@ body {
 /* ------------------- 767px以下の場合 ------------------- */
 @media(max-width: 767px) {
   /* トグルボタン */
+  #menubtn i {
+    color: #888888;
+    font-size: 18px;
+  }
+
   #menubtn span {
     display: inline-block;
     text-indent: -9999px;
