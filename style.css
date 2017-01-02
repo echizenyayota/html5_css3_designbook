@@ -266,6 +266,34 @@ body {
   margin-bottom: 20px;
 }
 
+/* パンくずリスト */
+.bread ol {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.bread li a {
+  display: block;
+  padding: 5px;
+  color: #000000;
+  font-size: 14px;
+  text-decoration: none;
+}
+
+.bread li a:hover {
+  background-color: #eeeeee;
+}
+
+.bread ol:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+.bread li {
+  float: left;
+  width: auto;
+}
 
 
 /* サイドメニュー */
