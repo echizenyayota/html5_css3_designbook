@@ -237,6 +237,25 @@ body {
   font-size: 14px;
 }
 
+/* サイドメニュー */
+.sidemenu ul	{
+  margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.sidemenu li a	{
+  display: block;
+	padding: 5px;
+	color: #000000;
+	font-size: 14px;
+	text-decoration: none;
+}
+
+.sidemenu li a:hover	{
+  background-color: #eeeeee;
+}
+
 /* コピーライト　*/
 .copyright p {
   margin: 0;
