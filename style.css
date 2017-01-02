@@ -499,7 +499,11 @@ body {
   }
   .box7-1 {
     float: right;
-    width: 80%
+    width: 80%;
+    padding-left: 70px;
+	  -moz-box-sizing: border-box;
+	  -webkit-box-sizing: border-box;
+	   box-sizing: border-box;
   }
   .box7-2 {
     float: left;
