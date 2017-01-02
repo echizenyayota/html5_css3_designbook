@@ -303,9 +303,12 @@ body {
   color: #888888;;
 }
 
-
-
 /* サイドメニュー */
+.sidemenu {
+  border: solid 4px #dddddd;
+}
+
+
 .sidemenu ul	{
   margin: 0;
 	padding: 0;
