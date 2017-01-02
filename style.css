@@ -274,7 +274,7 @@ body {
 }
 
 .bread li a {
-  display: block;
+  display: inline-block;
   padding: 5px;
   color: #000000;
   font-size: 14px;
