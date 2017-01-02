@@ -290,10 +290,17 @@ body {
   display: block;
   clear: both;
 }
+
 .bread li {
   float: left;
   width: auto;
 }
+
+.bread li:after {
+  content: '\003e';
+  color: #888888;;
+}
+
 
 
 /* サイドメニュー */
