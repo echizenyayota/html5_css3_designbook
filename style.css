@@ -249,9 +249,9 @@ body {
 
 
 .kiji p {
-  margin: 0;
-  color: #666666;
-  font-size: 14px;
+  max-width: 640px;
+  margin-top: 0;
+  margin-bottom: 20px;
 }
 
 /* サイドメニュー */
