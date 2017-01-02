@@ -260,6 +260,13 @@ body {
   color: #666666;
 }
 
+.kijiimg {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+
 
 /* サイドメニュー */
 .sidemenu ul	{
