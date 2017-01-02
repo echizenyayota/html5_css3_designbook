@@ -228,7 +228,10 @@ body {
 .kiji h1 {
   margin-top: 0;
   margin-bottom: 20px;
+  padding-left: 20px;
+  border-left: solid 20px #c50018;
   font-size: 36px;
+  font-weight: normal;
 }
 
 .kiji p {
