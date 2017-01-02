@@ -298,6 +298,8 @@ body {
 
 .bread li:after {
   content: '\003e';
+  margin-left: 10px;
+  margin-right: 10px;
   color: #888888;;
 }
 
