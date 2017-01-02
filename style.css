@@ -224,6 +224,19 @@ body {
 	margin-left: -31px;
 }
 
+/* 記事 */
+.kiji h1 {
+  margin-top: 0;
+  margin-bottom: 20px;
+  font-size: 36px;
+}
+
+.kiji p {
+  margin: 0;
+  color: #666666;
+  font-size: 14px;
+}
+
 /* コピーライト　*/
 .copyright p {
   margin: 0;
