@@ -325,6 +325,7 @@ body {
 .sidemenu li a	{
   display: block;
 	padding: 5px;
+  border-top: dotted 1px #dddddd;
 	color: #000000;
 	font-size: 14px;
 	text-decoration: none;
