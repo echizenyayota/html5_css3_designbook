@@ -473,7 +473,19 @@ body {
   .box6-1, .box6-2, .box6-3 {
     box-sizing: border-box;
   }
-
+  .box7:after {
+    content:"";
+    display: block;
+    clear: both;
+  }
+  .box7-1 {
+    float: left;
+    width: 80%
+  }
+  .box7-2 {
+    float: left;
+    width: 20%
+  }
 
 
 }
