@@ -254,6 +254,13 @@ body {
   margin-bottom: 20px;
 }
 
+.kiji .lead {
+  max-width: 100%;
+  font-size: 20px;
+  color: #666666;
+}
+
+
 /* サイドメニュー */
 .sidemenu ul	{
   margin: 0;
