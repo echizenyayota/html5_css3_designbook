@@ -244,6 +244,11 @@ body {
   font-size: 14px;
 }
 
+/* BOX-Aの下に罫線を挿入する（コンテンツページのみ） */
+.contents, .boxA {
+  border-bottom: solid 1px #dddddd;
+}
+
 /* Box5をバーの形にする */
 .box5 {
   padding-top: 15px;
@@ -285,9 +290,9 @@ body {
   padding-bottom: 25px;
 }
 
-/* ------------------- 599px以下の場合 ------------------- */
+/* ------------------- 359px以下の場合 ------------------- */
 
-@media (max-width: 599px) {
+@media (max-width: 359px) {
   /* サイト名 */
   .site img {
     width: 225px;
