@@ -308,6 +308,13 @@ body {
   border: solid 4px #dddddd;
 }
 
+.sidemenu h1 {
+  margin: 0;
+  font-size: 16px;
+  font-weight: normal;
+}
+
+
 
 .sidemenu ul	{
   margin: 0;
