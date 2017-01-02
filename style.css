@@ -472,7 +472,7 @@ body {
 
 @media (min-width: 1190px) {
   /* 全体の横幅を固定 */
-  .box3, .box4, .boxA-inner, .box5-inner, .box6 {
+  .box3, .box4, .boxA-inner, .box5-inner, .box6, .box7 {
     width: 1140px;
     margin-left: auto;
     margin-right: auto;
